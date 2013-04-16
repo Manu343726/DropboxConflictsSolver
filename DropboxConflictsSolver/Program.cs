@@ -112,7 +112,7 @@ namespace DropboxConflictsSolver
             Option option;
             bool error = false;
 
-            if (args.Length > 1 && args.Length < 4)
+            if (args.Length > 1 && args.Length <= 4)
             {
                 if (Directory.Exists(args[0]))
                 {
