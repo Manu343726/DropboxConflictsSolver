@@ -1,33 +1,31 @@
 DropboxConflictsSolver
 ======================
 
-DescripciÛn:
+Descripci√≥n:
 ------------
 
-…ste sencillo programa permite eliminar de manera r·pida y sencilla los archivos conflictivos que genera dropbox durante la sincronizaciÛn.
-Aunque ese es el cometido original para lo que fue desarrollado, el programa permite tanto la b˙squeda como la eliminaciÛn de archivos 
-utilizando una expresiÛn regular para filtrarlos (Por nombre).
+√âste sencillo programa permite eliminar de manera r√°pida y sencilla los archivos conflictivos que genera dropbox durante la sincronizaci√≥n.
+Aunque ese es el cometido original para lo que fue desarrollado, el programa permite tanto la b√∫squeda como la eliminaci√≥n de archivos utilizando una expresi√≥n regular para filtrarlos.
 
-UtilizaciÛn:
+Utilizaci√≥n:
 ------------
 
-El programa est· diseÒado para ser ejecutado a travÈs de la lÌnea de comandos con una serie de par·metros. La sintaxis es la siguiente:
+El programa est√° dise√±ado para ser ejecutado a trav√©s de la l√≠nea de comandos con una serie de par√°metros. La sintaxis es la siguiente:
 
-DropboxConflictsSolver [directorio] [regex] [acciÛn] [opciones]
+DropboxConflictsSolver [directorio] [regex] [acci√≥n] [opciones]
 
-directorio: Directorio donde buscar los archivos.
-regex: ExpresiÛn regular utilizada para filtrar los archivos. Dicha regex se aplica al nombre del archivo (ExtensiÛn incluida), no a su 
-       path completo.
-acciÛn: AcciÛn a ejecutar por el programa.
-		-s Muestra los archivos cuyo nombre se corresponde con la regex especificada.
-		-d Elimina los archivos cuyo nombre se corresponde con la regex especificada.
-		-h Muestra la ayuda del programa.
-opciones: Opciones de la acciÛn a ejecutar.
-          -r Buscar recursivamente en los subdirectorios del directorio especificado.
-		  -n Buscar ˙nicamente en el directorio especificado.
+ - directorio: Directorio donde buscar los archivos.
+ - regex: Expresi√≥n regular utilizada para filtrar los archivos. Dicha regex se aplica al nombre del archivo (Extensi√≥n          
+          incluida), no a su path completo.
+ - acci√≥n: Acci√≥n a ejecutar por el programa.
+	   **-s** Muestra los archivos cuyo nombre se corresponde con la regex especificada.
+	   **-d** Elimina los archivos cuyo nombre se corresponde con la regex especificada.
+	   **-h** Muestra la ayuda del programa.
+ - opciones: Opciones de la acci√≥n a ejecutar.
+             **-r** Buscar recursivamente en los subdirectorios del directorio especificado.
+             **-n** Buscar √∫nicamente en el directorio especificado.
 		  
-CÛdigo fuente:
+C√≥digo fuente:
 --------------
 
-El programa es un sencillo proyecto de consola desarrollado con C# (.NET Framework 4.5). El cÛdigo no est· licenciado, pero cualquiera que 
-desee utilizarlo para sus propios fines es libre de hacerlo.
+El programa es un sencillo proyecto de consola desarrollado con C# (.NET Framework 4.5). El c√≥digo no est√° licenciado, pero cualquiera que desee utilizarlo para sus propios fines es libre de hacerlo.
